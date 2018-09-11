@@ -1,0 +1,16 @@
+/* header */
+header{
+    background-color: #f72210;
+    height: 95px;
+    padding: 20px 10px 15px;
+}
+
+header img
+{
+    width: 100%;
+}
+.subscribe
+{
+    background-color: #fff;
+    color: #f72210;
+}
