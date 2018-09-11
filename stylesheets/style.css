@@ -26,6 +26,8 @@ header img
     font-weight: 700;
     background-color: #fff;
     color: #f72210;
+    border-radius: 0;
+    margin-left: 10px;
 }
 
 header p.date 
@@ -33,10 +35,26 @@ header p.date
     color: #fff;
 }
 
-
+.text-left{
+    padding-top: 3%;
+}
+.text-right{
+    padding-top: 2%;
+}
+.text-left p
+{
+    margin-bottom: 0;
+}
 .text-right a
 {
     color: #fff;
     font-weight: 700;
     
+}
+
+/* navbar */
+ul.navbar-nav li{
+ border-right: 1px solid #333;
+ padding: auto 16px;
+ font-weight: 700;
 }
