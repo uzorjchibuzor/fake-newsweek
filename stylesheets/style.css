@@ -1,3 +1,15 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-size: inherit;
+ 
+}
+
+
+
 /* header */
 header{
     background-color: #f72210;
@@ -11,6 +23,20 @@ header img
 }
 .subscribe
 {
+    font-weight: 700;
     background-color: #fff;
     color: #f72210;
+}
+
+header p.date 
+{
+    color: #fff;
+}
+
+
+.text-right a
+{
+    color: #fff;
+    font-weight: 700;
+    
 }
