@@ -141,6 +141,7 @@ a.featured-link1:hover{
     border-bottom: 1px solid #3333;
     padding: 10px 0;
     font-weight: 700;
+    margin-bottom: 20px;
  }
 
  .featured-link1 + p 
@@ -153,13 +154,18 @@ a.featured-link1:hover{
  width: 100%;
  }
 
- .col-md-9{
+ .col-md-8{
      font-weight: 700;
  }
 
- .col-md-9 p a{
+ .col-md-8 p a{
     color: #333333a8;
  }
+
+ .col-md-8 p a:hover{
+    color: #f72210;
+ }
+
 
  .opinion article.row{
     border-top: 1px solid #ddd;
@@ -167,10 +173,12 @@ a.featured-link1:hover{
     padding-bottom: 10px;
  }
 
- article.opinion article:first-child{
-    border-top: none;
- }
+.no-border-top
+{
+    border-top: none !important;
+}
 
- .col-md-9 p{
+
+ .col-md-8 p{
     margin-bottom: 0 !important;
  }
