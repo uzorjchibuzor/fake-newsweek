@@ -169,8 +169,8 @@ a.featured-link1:hover{
 
  .opinion article.row{
     border-top: 1px solid #ddd;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    
+    padding: 10px 0;
  }
 
 .no-border-top
@@ -192,3 +192,21 @@ a.featured-link1:hover{
  .center-links p{
     color: rgba(3,3,3,.4);
  }
+
+
+ /* 
+ Latest News Style
+ */
+
+ .latest-news {
+     margin-top: 30px;
+     background: red;
+ }
+
+ .latest-news row 
+ {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
