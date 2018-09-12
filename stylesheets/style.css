@@ -22,6 +22,9 @@ a:hover{
 .container{
     max-width: 99% !important;
 }
+img {
+    width: 100%;
+}
 /* header */
 header{
     margin-bottom: 25px;
@@ -33,7 +36,19 @@ header{
 }
 .header-nav{
     border-bottom: 1px solid #f4f5f6;
+    position: relative;
 }
+    .header-nav::before{
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        display: block;
+        width: 80px;
+        background-color: #f72210;
+        border-left: 12px solid #fff;
+        border-top: 13px solid #f72210;
+     }
 header img
 {
     width: 100%;
@@ -274,11 +289,8 @@ div.thumb-nail{
     font-weight: 700;
 }
 
-.magazine-left-image img{
-    width: 100%;
+.col-md-9 .col-md-4 img{
+    max-height: 276px;
 }
 
 
-img {
-    width: 100%;
-}
