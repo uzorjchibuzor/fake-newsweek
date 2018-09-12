@@ -148,7 +148,9 @@ a.featured-link1:hover{
  {
      margin-top: 16px;
  }
-
+div.thumb-nail{
+    padding-left: 0;
+}
 
  .thumb-nail img{
  width: 100%;
@@ -169,8 +171,10 @@ a.featured-link1:hover{
 
  .opinion article.row{
     border-top: 1px solid #ddd;
-    
+    width: 100%;
     padding: 10px 0;
+    margin: 0;
+ 
  }
 
 .no-border-top
@@ -210,3 +214,27 @@ a.featured-link1:hover{
     padding-bottom: 10px;
  }
 
+
+ /* 
+ Form Style
+ */
+
+ form {
+     margin: 0 auto 30px auto;
+     width: 90%;
+     background: #f4f5f6;
+     border: 1px solid #e5e5e5;
+ }
+
+ form h2 {
+     background: url('../assets/images/newsweek-logo.jpg')  no-repeat;
+     background-size: 10%;
+ }
+
+ .sign-up {
+    font-weight: 700;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0;
+    margin-left: 10px;
+ }
