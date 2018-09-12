@@ -148,21 +148,29 @@ a.featured-link1:hover{
      margin-top: 16px;
  }
 
- .row{
-     width: 100% !;
+
+ .thumb-nail img{
+ width: 100%;
  }
 
- .col-md-3
- {
-    width: 35% !important;
+ .col-md-9{
+     font-weight: 700;
  }
 
- .col-md-4
- {
-    width: 35% !important;
+ .col-md-9 p a{
+    color: #333333a8;
  }
 
- .col-md-5
- {
-width: 40% !important;
+ .opinion article.row{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ article.opinion article:first-child{
+    border-top: none;
+ }
+
+ .col-md-9 p{
+    margin-bottom: 0 !important;
  }
