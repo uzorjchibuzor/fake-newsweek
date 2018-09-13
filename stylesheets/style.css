@@ -442,12 +442,12 @@ footer .row
     margin-top: 20px;
 }
 
-.col-6 img {
+.col-md-6 img {
     width: 40%;
     vertical-align: text-bottom;
 }
 
-.col-6 span
+.col-md-6 span
 {
     font-size: 12px;
     display: inline-block;
@@ -456,7 +456,7 @@ footer .row
     margin-bottom: 12px;
 }
 
-div.col-6 i{
+div.col-md-6 i{
   margin-left: 12px;
   font-size: 1.5rem;
   color: #666;
@@ -466,33 +466,33 @@ footer .text-right{
   padding-top: 10px;
 }
 
-div.col-6 i.fa-facebook-square:hover{
+div.col-md-6 i.fa-facebook-square:hover{
 color: #3b5998;
 }
-div.col-6 i.fa-twitter:hover{
+div.col-md-6 i.fa-twitter:hover{
   color: #1da1f2
  }
-  div.col-6 i.fa-google-plus-g:hover{
+  div.col-md-6 i.fa-google-plus-g:hover{
     color: #dd4b39
  }
-div.col-6 i.fa-instagram:hover{
+div.col-md-6 i.fa-instagram:hover{
    color: #405de6
  }
-div.col-6 i.fa-tumblr:hover{
+div.col-md-6 i.fa-tumblr:hover{
    color: #35465c;
  }
-div.col-6 i.fa-linkedin-in:hover{
+div.col-md-6 i.fa-linkedin-in:hover{
   color: #0077b5
  }
 
- div.col-6 i
+ div.col-md-6 i
  {
    cursor: pointer;
  }
 
 
 
-footer .col-4 a, footer .col-7 a
+footer .col-md-4 a, footer .col-md-7 a
 {
     color: #666;
     font-size: 14px;
@@ -512,13 +512,13 @@ footer hr {
         border-top: 1px solid rgba(0,0,0,.1);
 }
 
-footer .col-4 a:hover, footer .col-7 a:hover
+footer .col-md-4 a:hover, footer .col-md-7 a:hover
 {
     color: #000;
 }
 
 
-footer .col-4 a:last-child, footer .col-7 a:last-child
+footer .col-md-4 a:last-child, footer .col-md-7 a:last-child
 {
   border:none;
 }
