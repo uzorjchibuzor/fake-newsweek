@@ -400,3 +400,54 @@ Bottom News
   font-size: 1em;
   font-weight: 700;
 }
+
+.text-center button 
+{
+    background: #f72210;
+    color: #fff;
+    font-weight: 700;
+}
+
+form .text-center
+{
+    margin-top: 20px;
+}
+
+ul.check-links>li
+{
+    opacity: .85;
+}
+
+ul.check-links>li::before
+{
+    content: '\2714\0020';
+}
+
+form .col-7 h3
+{
+    font-size: 1.5em;
+}
+
+footer 
+{
+    border-top: 1px solid #e4e5e6;
+}
+
+footer .row
+{
+    margin-top: 30px;
+}
+
+.col-6 img {
+    width: 40%;
+    vertical-align: text-bottom;
+}
+
+.col-6 span
+{
+    font-size: 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
