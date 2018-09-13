@@ -369,6 +369,7 @@ Bottom News
 .bottom-news {
   border-top: 1px solid #33333340;
   padding-top: 29px;
+  margin-bottom: 27px;
 }
 
 
@@ -385,8 +386,17 @@ Bottom News
   color: #f72210;
   padding: 5px 21px 6px;
   background-color: rgba(255, 255, 255, 0.9);
- 
+  font-size: 1em;
   z-index: 1;
   font-weight: 700;
 }
 
+.footer-subscribe
+{
+  border-top: none;
+}
+
+.bottom-news h3{
+  font-size: 1em;
+  font-weight: 700;
+}
