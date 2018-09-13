@@ -383,3 +383,18 @@ article.slide-show > div.col-md-4 > div.featured-image + a.featured-link1
     margin-bottom: 30px;
     line-height: 27px;
 }
+
+article.slide-show > div.col-md-4 > div.featured-image > a{
+    width: 100%;
+    font-weight: 700;
+    color: red;
+    background: url(../assets/images/newsweek-share.png) no-repeat;
+    background-size: 14%;
+    background-position: 0 100%;
+    padding-top: 17px;
+}
+
+.bottom-news{
+    border-top: 1px solid #33333340;
+    padding-top: 29px;
+}
