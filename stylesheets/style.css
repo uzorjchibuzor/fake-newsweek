@@ -268,12 +268,15 @@ div.thumb-nail{
  */
 
  .magazine h2.magazine-header {
-     width: 100%;
+    width: 100%;
+    border-bottom: 1px solid #33333330;
     font-weight: 700;
-   text-align: center;
     color: #000;
-    background: url('../assets/images/newsweek-logo.jpg')  no-repeat;
-    background-size: 15%;
+    background: url(../assets/images/newsweek-logo.jpg) no-repeat;
+    background-size: 3%;
+    background-position: 41%;
+    padding-top: 11px;
+    padding-bottom: 14px;
 }
 .magazine-left-image{
     position: relative;
@@ -289,7 +292,7 @@ div.thumb-nail{
     font-weight: 700;
 }
 
-.col-md-9 .col-md-4 img{
+.col-md-9 .col-md-4 img, .magazine2 .col-md-3 img{
     max-height: 276px;
     display: inline-block;
     margin-bottom: 10px;
@@ -325,7 +328,7 @@ font-weight: 700;
     text-decoration-color: #f72210;
 }
 
-.col-md-4 span + a + p
+.col-md-4 span + a + p, .col-md-3 span + a + p
 {
     display: block;
     margin-top: 1rem;
