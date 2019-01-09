@@ -168,7 +168,7 @@ div.thumb-nail {
   color: #f72210;
 }
 
-.opinion article.row {
+.opinion div.row {
   border-top: 1px solid #ddd;
   width: 100%;
   padding: 10px 0;
@@ -346,13 +346,13 @@ h2.featured-slideshow-header {
   padding-bottom: 14px;
 }
 
-article.slide-show > div.col-md-4 > div.featured-image + a.featured-link1 {
+div.slide-show > div.col-md-4 > div.featured-image + a.featured-link1 {
   display: block;
   margin-bottom: 30px;
   line-height: 27px;
 }
 
-article.slide-show > div.col-md-4 > div.featured-image > a {
+div.slide-show > div.col-md-4 > div.featured-image > a {
   width: 100%;
   font-weight: 700;
   color: red;
